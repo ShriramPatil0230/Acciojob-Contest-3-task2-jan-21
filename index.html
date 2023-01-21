@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shriram Ptil Contest 3 task2</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper left">
+            <label for="Input">Text Field<font-color="red">*</font-color=></label><br>
+            <input type="text" name="input" id="Input" placeholder="Input Text" required><br><br>
+            <label for="state">Select Field&#9432;</label><br>
+            <select name="states" id="state" aria-placeholder="Select">
+                <option value="none" selected disabled hidden>Select</option>
+                <option value="CS">Computer</option>
+                <option value="SCI">Science</option>
+                <option value="CHE">Chemistry</option>
+                <option value="MT">Mathematics</option>
+                <option value="ELE">Electrical</option>
+                <option value="CV">Civil</option>
+            </select><br><br>
+            <label for="textarea">Text Area&#9432;</label><br>
+            <textarea rows="5" cols="30" name="textarea" id="textarea" class="textArea"></textarea><br><br>
+            <label for="adds-on"></label>Text Field with Add-ons<font color="red">*</font><br>
+            <div class="addson">
+                <label>Label&nbsp;</label>
+                <input type="text" placeholder="Input Field">
+                <input type="button" value="Button">&nbsp;
+            </div>
+        </div>
+        <div class="wrapper right">
+            <div class="box">
+                <i class="fa fa-search" aria-hidden="true"></i>            
+                <input type="text" name="search" placeholder="Search..">            
+            </div>
+            
+            <div class="input-group">
+                <input type="button" value="-" class="button-minus" data-field="quantity">
+                <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
+                <input type="button" value="+" class="button-plus" data-field="quantity">
+              </div>
+      
+            <div class="check">
+                <input type="checkbox" name="" id="">
+                <label for="Checkbox">Checkbox</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="" id="">
+                <label for="radio">Radio Button</label>
+            </div>
+
+            <div class="switch">
+        
+                <label class="switch">
+                <input type="checkbox">Switch
+                <span class="slider round"></span>
+                  </label>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
